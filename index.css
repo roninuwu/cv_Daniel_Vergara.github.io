@@ -1,0 +1,76 @@
+body{
+    border-style: double;
+    background-color: #FFCE00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(9, 9, 143);
+}
+h3{
+    color: white;
+}
+img{
+    width: 200px;
+    height: 200px;
+    max-height: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-style: ridge;
+    border-color: #262228;
+    border-radius: 50%;
+    margin: 5px;
+    align-self: center;
+}
+.habilidades{
+    background-color: #007849;
+    border-style: ridge;
+    border-color: #262228;
+    width: 500px;
+    margin: 5px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.educacion{
+    background-color: #0375B4;
+    border-style: ridge;
+    border-color: #262228;
+    width: 500px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.caja-informacion{
+    background-color: #E37222;
+    width: 500px;
+    border-style: ridge;
+    border-color: #262228;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.sub-caja-informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+.titulo{
+    margin: 5px;
+    width: auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
